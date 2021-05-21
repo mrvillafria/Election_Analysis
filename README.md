@@ -15,9 +15,9 @@ The purpose of this project was to assist a Colorado Board of Election employee,
 	- Denver: 306,055
 	- Arapahoe: 24,801
 - Each county's percentage of total votes
-	- Jefferson: 10.5% (38,855)
-	- Denver: 82.8% (306,055)
-	- Arapahoe: 6.7% (24,801)
+	- Jefferson: 10.5%
+	- Denver: 82.8%
+	- Arapahoe: 6.7%
 - County with the largest number of voters: Denver
 - Each candidate's total number of votes
 	- Charles Casper Stockham: 85,213
@@ -31,5 +31,9 @@ The purpose of this project was to assist a Colorado Board of Election employee,
 - Winning vote count: 272,892
 - Winning percentage of total votes: 73.8%
 
+Here is a screenshot of the results when the code is ran from the terminal:
+
+![election_results_terminal](/Resources/election_results_terminal.PNG)
 
 ## Election Audit Summary
+Based on the results we generated, we believe this report would be helpful for other congressional districts, senatorial districts, local elections, or any election. The information in our report provides insightful information in a concise way. We feel it is important to not only show the number of votes but the percentage is also valuable as well. A few modifications that could be made, depending on if the data was available, would be to adjust the location criteria based on what type of election was being conducted. For example, in this case, we are only looking at county votes, but perhaps could look at a city or state vote counts instead. After last year's presidential election, there was a lot of controversy around how the submission of votes. We could also report on the different voting methods if that data was available to show the number of votes that were mail-in, punch card, or direct recording election (DRE). 

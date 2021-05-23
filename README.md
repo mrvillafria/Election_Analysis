@@ -8,7 +8,9 @@ The purpose of this project was to assist a Colorado Board of Election employee,
 
 ## Election Audit Results
 
-##### Election Results
+Our data set consisted of three fields in a CSV file: Ballot ID, County, and Candidate. First we imported our dependencies to help us open and read CSV files as well as interact with our operating system. The OS and CSV modules are prewritten programs that have specific functions and menthods readily available to use. We first loaded the CSV file and then used different conditionals and loop statements to count the total votes, each county's votes, and each candidate's votes. Based on these numbers, we were then able to calculate the percentage for each of these vote counts. After these numbers were calculated, we were able to determine the winner of the election. These results were then printed to the terminal as well as written to a text file. 
+
+#### Election Results
 - Total number of votes: 369,711
 - Each county's total vote count
 	- Jefferson: 38,855
@@ -35,5 +37,8 @@ Here is a screenshot of the results when the code is ran from the terminal:
 
 ![election_results_terminal](/Resources/election_results_terminal.PNG)
 
+Here is link to the election analysis written to a text file:
+[Election Analysis Text File - Link](https://github.com/mrvillafria/election_analysis/blob/main/analysis/election_analysis.txt)
+
 ## Election Audit Summary
-Based on the results we generated, we believe this report would be helpful for other congressional districts, senatorial districts, local elections, or any election. The information in our report provides insightful information in a concise way. We feel it is important to not only show the number of votes but the percentage is also valuable as well. A few modifications that could be made, depending on if the data was available, would be to adjust the location criteria based on what type of election was being conducted. For example, in this case, we are only looking at county votes, but perhaps could look at a city or state vote counts instead. After last year's presidential election, there was a lot of controversy around how the submission of votes. We could also report on the different voting methods if that data was available to show the number of votes that were mail-in, punch card, or direct recording election (DRE). 
+Based on the results we generated, we believe this report would be helpful for other congressional districts, senatorial districts, local elections, or any election. The information in our report provides insightful information in a concise way. We feel it is important to not only show the number of votes but the percentage is also valuable as well. A few modifications that could be made, depending on if the data was available, would be to adjust the location criteria based on what type of election was being conducted. For example, in this case, we are only looking at county votes, but perhaps could look at a city or state vote counts instead. After last year's presidential election, there was a lot of controversy around the submission of votes. We could also report on the different voting methods if that data was available to show the number of votes that were mail-in, punch card, or direct recording election (DRE). 
